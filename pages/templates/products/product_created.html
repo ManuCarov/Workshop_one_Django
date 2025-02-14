@@ -1,0 +1,9 @@
+{% extends 'pages/base.html' %}
+{% block title %} {{title}} {% endblock %}
+
+{% block content %}
+<div class="container">
+    <h2>Product created</h2>
+    <a href="{% url 'form' %}" class="btn btn-primary">Go back to form</a>
+</div>
+{% endblock %}
